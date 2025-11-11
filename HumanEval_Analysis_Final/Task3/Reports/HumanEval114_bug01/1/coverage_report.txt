@@ -1,0 +1,44 @@
+[1m============================= test session starts ==============================[0m
+platform darwin -- Python 3.10.10, pytest-8.4.2, pluggy-1.6.0 -- /Library/Frameworks/Python.framework/Versions/3.10/bin/python3
+cachedir: .pytest_cache
+rootdir: /var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_ypi2xkra
+plugins: anyio-4.11.0, cov-7.0.0
+[1mcollecting ... [0mcollected 9 items
+
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_ypi2xkra/test_solution.py::test_case_0 [31mFAILED[0m[31m [ 11%][0m
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_ypi2xkra/test_solution.py::test_case_1 [32mPASSED[0m[31m [ 22%][0m
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_ypi2xkra/test_solution.py::test_case_2 [32mPASSED[0m[31m [ 33%][0m
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_ypi2xkra/test_solution.py::test_case_3 [32mPASSED[0m[31m [ 44%][0m
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_ypi2xkra/test_solution.py::test_case_4 [32mPASSED[0m[31m [ 55%][0m
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_ypi2xkra/test_solution.py::test_case_5 [32mPASSED[0m[31m [ 66%][0m
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_ypi2xkra/test_solution.py::test_case_6 [31mFAILED[0m[31m [ 77%][0m
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_ypi2xkra/test_solution.py::test_case_7 [32mPASSED[0m[31m [ 88%][0m
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_ypi2xkra/test_solution.py::test_case_8 [32mPASSED[0m[31m [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m_________________________________ test_case_0 __________________________________[0m
+[1m[31m/var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_ypi2xkra/test_solution.py[0m:9: in test_case_0
+    [0m[94massert[39;49;00m candidate([[94m2[39;49;00m, [94m3[39;49;00m, [94m4[39;49;00m, [94m1[39;49;00m, [94m2[39;49;00m, [94m4[39;49;00m]) == [94m1[39;49;00m[90m[39;49;00m
+[1m[31mE   assert 0 == 1[0m
+[1m[31mE    +  where 0 = candidate([2, 3, 4, 1, 2, 4])[0m
+[31m[1m_________________________________ test_case_6 __________________________________[0m
+[1m[31m/var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_ypi2xkra/test_solution.py[0m:27: in test_case_6
+    [0m[94massert[39;49;00m candidate([[94m10[39;49;00m, [94m11[39;49;00m, [94m13[39;49;00m, [94m8[39;49;00m, [94m3[39;49;00m, [94m4[39;49;00m]) == [94m3[39;49;00m[90m[39;49;00m
+[1m[31mE   assert 0 == 3[0m
+[1m[31mE    +  where 0 = candidate([10, 11, 13, 8, 3, 4])[0m
+================================ tests coverage ================================
+______________ coverage: platform darwin, python 3.10.10-final-0 _______________
+
+Name               Stmts   Miss Branch BrPart  Cover   Missing
+--------------------------------------------------------------
+HumanEval_114.py      10      1      4      1    86%   15
+--------------------------------------------------------------
+TOTAL                 10      1      4      1    86%
+Coverage HTML written to dir /var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_ypi2xkra/htmlcov
+Coverage JSON written to file /var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_ypi2xkra/coverage.json
+[36m[1m=========================== short test summary info ============================[0m
+[31mFAILED[0m ../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_ypi2xkra/test_solution.py::[1mtest_case_0[0m - assert 0 == 1
+[31mFAILED[0m ../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_ypi2xkra/test_solution.py::[1mtest_case_6[0m - assert 0 == 3
+[31m========================= [31m[1m2 failed[0m, [32m7 passed[0m[31m in 0.09s[0m[31m ==========================[0m
+
+

@@ -1,0 +1,44 @@
+[1m============================= test session starts ==============================[0m
+platform darwin -- Python 3.10.10, pytest-8.4.2, pluggy-1.6.0 -- /Library/Frameworks/Python.framework/Versions/3.10/bin/python3
+cachedir: .pytest_cache
+rootdir: /var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_r2t1j3o7
+plugins: anyio-4.11.0, cov-7.0.0
+[1mcollecting ... [0mcollected 13 items
+
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_r2t1j3o7/test_solution.py::test_case_0 [32mPASSED[0m[32m [  7%][0m
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_r2t1j3o7/test_solution.py::test_case_1 [32mPASSED[0m[32m [ 15%][0m
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_r2t1j3o7/test_solution.py::test_case_2 [32mPASSED[0m[32m [ 23%][0m
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_r2t1j3o7/test_solution.py::test_case_3 [32mPASSED[0m[32m [ 30%][0m
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_r2t1j3o7/test_solution.py::test_case_4 [32mPASSED[0m[32m [ 38%][0m
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_r2t1j3o7/test_solution.py::test_case_5 [32mPASSED[0m[32m [ 46%][0m
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_r2t1j3o7/test_solution.py::test_case_6 [32mPASSED[0m[32m [ 53%][0m
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_r2t1j3o7/test_solution.py::test_case_7 [32mPASSED[0m[32m [ 61%][0m
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_r2t1j3o7/test_solution.py::test_case_8 [32mPASSED[0m[32m [ 69%][0m
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_r2t1j3o7/test_solution.py::test_case_9 [32mPASSED[0m[32m [ 76%][0m
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_r2t1j3o7/test_solution.py::test_case_10 [32mPASSED[0m[32m [ 84%][0m
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_r2t1j3o7/test_solution.py::test_case_11 [32mPASSED[0m[32m [ 92%][0m
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_r2t1j3o7/test_solution.py::test_case_12 [31mFAILED[0m[31m [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m_________________________________ test_case_12 _________________________________[0m
+[1m[31m/var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_r2t1j3o7/test_solution.py[0m:45: in test_case_12
+    [0m[94massert[39;49;00m candidate([33m'[39;49;00m[33m3 5 2 5[39;49;00m[33m\n[39;49;00m[33m1 3 10[39;49;00m[33m'[39;49;00m) == [33m'[39;49;00m[33m19[39;49;00m[33m'[39;49;00m[90m[39;49;00m
+[1m[31mE   AssertionError: assert '20' == '19'[0m
+[1m[31mE     [0m
+[1m[31mE     [0m[91m- 19[39;49;00m[90m[39;49;00m[0m
+[1m[31mE     [92m+ 20[39;49;00m[90m[39;49;00m[0m
+================================ tests coverage ================================
+______________ coverage: platform darwin, python 3.10.10-final-0 _______________
+
+Name      Stmts   Miss Branch BrPart  Cover   Missing
+-----------------------------------------------------
+apps.py      66     18     38     10    69%   3, 6, 9-16, 20, 22, 24, 26, 28, 50, 68-69, 77
+-----------------------------------------------------
+TOTAL        66     18     38     10    69%
+Coverage HTML written to dir /var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_r2t1j3o7/htmlcov
+Coverage JSON written to file /var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_r2t1j3o7/coverage.json
+[36m[1m=========================== short test summary info ============================[0m
+[31mFAILED[0m ../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_r2t1j3o7/test_solution.py::[1mtest_case_12[0m - AssertionError: assert '20' == '19'
+[31m========================= [31m[1m1 failed[0m, [32m12 passed[0m[31m in 0.11s[0m[31m =========================[0m
+
+

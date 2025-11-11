@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coverage Reports Index</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+            border-bottom: 3px solid #4CAF50;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #555;
+            margin-top: 30px;
+            background-color: #e8e8e8;
+            padding: 10px;
+            border-left: 4px solid #4CAF50;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+        td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #ddd;
+        }
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+        a {
+            color: #2196F3;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .coverage-high {
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        .coverage-medium {
+            color: #FF9800;
+            font-weight: bold;
+        }
+        .coverage-low {
+            color: #f44336;
+            font-weight: bold;
+        }
+        .status-pass {
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        .status-fail {
+            color: #f44336;
+            font-weight: bold;
+        }
+        .summary {
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .summary-item {
+            display: inline-block;
+            margin-right: 30px;
+            font-size: 16px;
+        }
+        .summary-label {
+            font-weight: bold;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>📊 Coverage Reports Index</h1>
+    <div class="summary">
+        <div class="summary-item">
+            <span class="summary-label">Total Solutions:</span> 40
+        </div>
+        <div class="summary-item">
+            <span class="summary-label">LLM Implementations:</span> 4
+        </div>
+        <div class="summary-item">
+            <span class="summary-label">Generated:</span> 2025-11-10 23:12:48
+        </div>
+    </div>
+
+    <h2>gemma_Self_Planning</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Problem</th>
+                <th>Tests</th>
+                <th>Line Coverage</th>
+                <th>Branch Coverage</th>
+                <th>Interpretation</th>
+                <th>HTML Report</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>HumanEval/1</td>
+                <td class="status-pass">4/4</td>
+                <td class="coverage-high">95.8%</td>
+                <td class="coverage-high">87.5%</td>
+                <td>Good line coverage but some branches untested</td>
+                <td><a href="gemma_Self_Planning/HumanEval_1/index.html" target="_blank">View Report →</a></td>
+            </tr>
+            <tr>
+                <td>HumanEval/17</td>
+                <td class="status-pass">5/5</td>
+                <td class="coverage-high">95.0%</td>
+                <td class="coverage-high">87.5%</td>
+                <td>Good line coverage but some branches untested</td>
+                <td><a href="gemma_Self_Planning/HumanEval_17/index.html" target="_blank">View Report →</a></td>
+            </tr>
+            <tr>
+                <td>HumanEval/26</td>
+                <td class="status-pass">3/3</td>
+                <td class="coverage-high">100.0%</td>
+                <td class="coverage-high">100.0%</td>
+                <td>Excellent coverage - well-tested code</td>
+                <td><a href="gemma_Self_Planning/HumanEval_26/index.html" target="_blank">View Report →</a></td>
+            </tr>
+            <tr>
+                <td>HumanEval/77</td>
+                <td class="status-fail">7/8</td>
+                <td class="coverage-high">100.0%</td>
+                <td class="coverage-high">100.0%</td>
+                <td>1 test(s) failed - fix failing tests first</td>
+                <td><a href="gemma_Self_Planning/HumanEval_77/index.html" target="_blank">View Report →</a></td>
+            </tr>
+            <tr>
+                <td>HumanEval/84</td>
+                <td class="status-fail">0/5</td>
+                <td class="coverage-high">100.0%</td>
+                <td class="">N/A</td>
+                <td>5 test(s) failed - fix failing tests first</td>
+                <td><a href="gemma_Self_Planning/HumanEval_84/index.html" target="_blank">View Report →</a></td>
+            </tr>
+            <tr>
+                <td>HumanEval/94</td>
+                <td class="status-pass">9/9</td>
+                <td class="coverage-high">94.4%</td>
+                <td class="coverage-high">93.8%</td>
+                <td>Excellent coverage - well-tested code</td>
+                <td><a href="gemma_Self_Planning/HumanEval_94/index.html" target="_blank">View Report →</a></td>
+            </tr>
+            <tr>
+                <td>HumanEval/101</td>
+                <td class="status-pass">6/6</td>
+                <td class="coverage-high">100.0%</td>
+                <td class="coverage-high">100.0%</td>
+                <td>Excellent coverage - well-tested code</td>
+                <td><a href="gemma_Self_Planning/HumanEval_101/index.html" target="_blank">View Report →</a></td>
+            </tr>
+            <tr>
+                <td>HumanEval/107</td>
+                <td class="status-pass">8/8</td>
+                <td class="coverage-high">100.0%</td>
+                <td class="coverage-high">100.0%</td>
+                <td>Excellent coverage - well-tested code</td>
+                <td><a href="gemma_Self_Planning/HumanEval_107/index.html" target="_blank">View Report →</a></td>
+            </tr>
+            <tr>
+                <td>HumanEval/114</td>
+                <td class="status-pass">12/12</td>
+                <td class="coverage-high">85.7%</td>
+                <td class="coverage-medium">75.0%</td>
+                <td>Moderate branch coverage - some conditional branches untested</td>
+                <td><a href="gemma_Self_Planning/HumanEval_114/index.html" target="_blank">View Report →</a></td>
+            </tr>
+            <tr>
+                <td>HumanEval/156</td>
+                <td class="status-pass">14/14</td>
+                <td class="coverage-high">100.0%</td>
+                <td class="coverage-high">100.0%</td>
+                <td>Excellent coverage - well-tested code</td>
+                <td><a href="gemma_Self_Planning/HumanEval_156/index.html" target="_blank">View Report →</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>gemma_self_edit</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Problem</th>
+                <th>Tests</th>
+                <th>Line Coverage</th>
+                <th>Branch Coverage</th>
+                <th>Interpretation</th>
+                <th>HTML Report</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>HumanEval/1</td>
+                <td class="status-pass">4/4</td>
+                <td class="coverage-high">96.2%</td>
+                <td class="coverage-high">87.5%</td>
+                <td>Good line coverage but some branches untested</td>
+                <td><a href="gemma_self_edit/HumanEval_1/index.html" target="_blank">View Report →</a></td>
+            </tr>
+            <tr>
+                <td>HumanEval/17</td>
+                <td class="status-pass">5/5</td>
+                <td class="coverage-high">100.0%</td>
+                <td class="">N/A</td>
+                <td>Good line coverage achieved</td>
+                <td><a href="gemma_self_edit/HumanEval_17/index.html" target="_blank">View Report →</a></td>
+            </tr>
+            <tr>
+                <td>HumanEval/26</td>
+                <td class="status-pass">3/3</td>
+                <td class="coverage-high">100.0%</td>
+                <td class="coverage-high">100.0%</td>
+                <td>Excellent coverage - well-tested code</td>
+                <td><a href="gemma_self_edit/HumanEval_26/index.html" target="_blank">View Report →</a></td>
+            </tr>
+            <tr>
+                <td>HumanEval/77</td>
+                <td class="status-fail">0/8</td>
+                <td class="coverage-low">0.0%</td>
+                <td class="">N/A</td>
+                <td>8 test(s) failed - fix failing tests first</td>
+                <td><a href="gemma_self_edit/HumanEval_77/index.html" target="_blank">View Report →</a></td>
+            </tr>
+            <tr>
+                <td>HumanEval/84</td>
+                <td class="status-fail">0/5</td>
+                <td class="coverage-high">100.0%</td>
+                <td class="">N/A</td>
+                <td>5 test(s) failed - fix failing tests first</td>
+                <td><a href="gemma_self_edit/HumanEval_84/index.html" target="_blank">View Report →</a></td>
+            </tr>
+            <tr>
+                <td>HumanEval/94</td>
+                <td class="status-pass">9/9</td>
+                <td class="coverage-high">95.3%</td>
+                <td class="coverage-high">92.9%</td>
+                <td>Excellent coverage - well-tested code</td>
+                <td><a href="gemma_self_edit/HumanEval_94/index.html" target="_blank">View Report →</a></td>
+            </tr>
+            <tr>
+                <td>HumanEval/101</td>
+                <td class="status-pass">6/6</td>
+                <td class="coverage-high">100.0%</td>
+                <td class="">N/A</td>
+                <td>Good line coverage achieved</td>
+                <td><a href="gemma_self_edit/HumanEval_101/index.html" target="_blank">View Report →</a></td>
+            </tr>
+            <tr>
+                <td>HumanEval/107</td>
+                <td class="status-pass">8/8</td>
+                <td class="coverage-high">100.0%</td>
+                <td class="coverage-high">100.0%</td>
+                <td>Excellent coverage - well-tested code</td>
+                <td><a href="gemma_self_edit/HumanEval_107/index.html" target="_blank">View Report →</a></td>
+            </tr>
+            <tr>
+                <td>HumanEval/114</td>
+                <td class="status-pass">12/12</td>
+                <td class="coverage-high">100.0%</td>
+                <td class="coverage-high">100.0%</td>
+                <td>Excellent coverage - well-tested code</td>
+                <td><a href="gemma_self_edit/HumanEval_114/index.html" target="_blank">View Report →</a></td>
+            </tr>
+            <tr>
+                <td>HumanEval/156</td>
+                <td class="status-pass">14/14</td>
+                <td class="coverage-high">100.0%</td>
+                <td class="coverage-high">100.0%</td>
+                <td>Excellent coverage - well-tested code</td>
+                <td><a href="gemma_self_edit/HumanEval_156/index.html" target="_blank">View Report →</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>llama_self_edit</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Problem</th>
+                <th>Tests</th>
+                <th>Line Coverage</th>
+                <th>Branch Coverage</th>
+                <th>Interpretation</th>
+                <th>HTML Report</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>HumanEval/1</td>
+                <td class="status-pass">4/4</td>
+                <td class="coverage-high">96.2%</td>
+                <td class="coverage-high">87.5%</td>
+                <td>Good line coverage but some branches untested</td>
+                <td><a href="llama_self_edit/HumanEval_1/index.html" target="_blank">View Report →</a></td>
+            </tr>
+            <tr>
+                <td>HumanEval/17</td>
+                <td class="status-fail">3/5</td>
+                <td class="coverage-high">88.2%</td>
+                <td class="coverage-medium">75.0%</td>
+                <td>2 test(s) failed - fix failing tests first</td>
+                <td><a href="llama_self_edit/HumanEval_17/index.html" target="_blank">View Report →</a></td>
+            </tr>
+            <tr>
+                <td>HumanEval/26</td>
+                <td class="status-pass">3/3</td>
+                <td class="coverage-high">100.0%</td>
+                <td class="coverage-high">100.0%</td>
+                <td>Excellent coverage - well-tested code</td>
+                <td><a href="llama_self_edit/HumanEval_26/index.html" target="_blank">View Report →</a></td>
+            </tr>
+            <tr>
+                <td>HumanEval/77</td>
+                <td class="status-fail">0/8</td>
+                <td class="coverage-low">0.0%</td>
+                <td class="">N/A</td>
+                <td>8 test(s) failed - fix failing tests first</td>
+                <td><a href="llama_self_edit/HumanEval_77/index.html" target="_blank">View Report →</a></td>
+            </tr>
+            <tr>
+                <td>HumanEval/84</td>
+                <td class="status-fail">0/5</td>
+                <td class="coverage-high">100.0%</td>
+                <td class="">N/A</td>
+                <td>5 test(s) failed - fix failing tests first</td>
+                <td><a href="llama_self_edit/HumanEval_84/index.html" target="_blank">View Report →</a></td>
+            </tr>
+            <tr>
+                <td>HumanEval/94</td>
+                <td class="status-pass">9/9</td>
+                <td class="coverage-high">100.0%</td>
+                <td class="coverage-high">100.0%</td>
+                <td>Excellent coverage - well-tested code</td>
+                <td><a href="llama_self_edit/HumanEval_94/index.html" target="_blank">View Report →</a></td>
+            </tr>
+            <tr>
+                <td>HumanEval/101</td>
+                <td class="status-pass">6/6</td>
+                <td class="coverage-high">100.0%</td>
+                <td class="">N/A</td>
+                <td>Good line coverage achieved</td>
+                <td><a href="llama_self_edit/HumanEval_101/index.html" target="_blank">View Report →</a></td>
+            </tr>
+            <tr>
+                <td>HumanEval/107</td>
+                <td class="status-pass">8/8</td>
+                <td class="coverage-high">100.0%</td>
+                <td class="coverage-high">100.0%</td>
+                <td>Excellent coverage - well-tested code</td>
+                <td><a href="llama_self_edit/HumanEval_107/index.html" target="_blank">View Report →</a></td>
+            </tr>
+            <tr>
+                <td>HumanEval/114</td>
+                <td class="status-pass">12/12</td>
+                <td class="coverage-high">100.0%</td>
+                <td class="coverage-high">100.0%</td>
+                <td>Excellent coverage - well-tested code</td>
+                <td><a href="llama_self_edit/HumanEval_114/index.html" target="_blank">View Report →</a></td>
+            </tr>
+            <tr>
+                <td>HumanEval/156</td>
+                <td class="status-pass">14/14</td>
+                <td class="coverage-high">100.0%</td>
+                <td class="coverage-high">100.0%</td>
+                <td>Excellent coverage - well-tested code</td>
+                <td><a href="llama_self_edit/HumanEval_156/index.html" target="_blank">View Report →</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>llama_self_planning</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Problem</th>
+                <th>Tests</th>
+                <th>Line Coverage</th>
+                <th>Branch Coverage</th>
+                <th>Interpretation</th>
+                <th>HTML Report</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>HumanEval/1</td>
+                <td class="status-pass">4/4</td>
+                <td class="coverage-high">100.0%</td>
+                <td class="coverage-high">100.0%</td>
+                <td>Excellent coverage - well-tested code</td>
+                <td><a href="llama_self_planning/HumanEval_1/index.html" target="_blank">View Report →</a></td>
+            </tr>
+            <tr>
+                <td>HumanEval/17</td>
+                <td class="status-fail">2/5</td>
+                <td class="coverage-high">85.7%</td>
+                <td class="coverage-medium">75.0%</td>
+                <td>3 test(s) failed - fix failing tests first</td>
+                <td><a href="llama_self_planning/HumanEval_17/index.html" target="_blank">View Report →</a></td>
+            </tr>
+            <tr>
+                <td>HumanEval/26</td>
+                <td class="status-pass">3/3</td>
+                <td class="coverage-high">95.7%</td>
+                <td class="coverage-high">83.3%</td>
+                <td>Good line coverage but some branches untested</td>
+                <td><a href="llama_self_planning/HumanEval_26/index.html" target="_blank">View Report →</a></td>
+            </tr>
+            <tr>
+                <td>HumanEval/77</td>
+                <td class="status-fail">0/8</td>
+                <td class="coverage-low">0.0%</td>
+                <td class="">N/A</td>
+                <td>8 test(s) failed - fix failing tests first</td>
+                <td><a href="llama_self_planning/HumanEval_77/index.html" target="_blank">View Report →</a></td>
+            </tr>
+            <tr>
+                <td>HumanEval/84</td>
+                <td class="status-fail">0/5</td>
+                <td class="coverage-high">100.0%</td>
+                <td class="coverage-high">100.0%</td>
+                <td>5 test(s) failed - fix failing tests first</td>
+                <td><a href="llama_self_planning/HumanEval_84/index.html" target="_blank">View Report →</a></td>
+            </tr>
+            <tr>
+                <td>HumanEval/94</td>
+                <td class="status-pass">9/9</td>
+                <td class="coverage-high">95.3%</td>
+                <td class="coverage-high">92.9%</td>
+                <td>Excellent coverage - well-tested code</td>
+                <td><a href="llama_self_planning/HumanEval_94/index.html" target="_blank">View Report →</a></td>
+            </tr>
+            <tr>
+                <td>HumanEval/101</td>
+                <td class="status-pass">6/6</td>
+                <td class="coverage-high">100.0%</td>
+                <td class="">N/A</td>
+                <td>Good line coverage achieved</td>
+                <td><a href="llama_self_planning/HumanEval_101/index.html" target="_blank">View Report →</a></td>
+            </tr>
+            <tr>
+                <td>HumanEval/107</td>
+                <td class="status-pass">8/8</td>
+                <td class="coverage-high">100.0%</td>
+                <td class="coverage-high">100.0%</td>
+                <td>Excellent coverage - well-tested code</td>
+                <td><a href="llama_self_planning/HumanEval_107/index.html" target="_blank">View Report →</a></td>
+            </tr>
+            <tr>
+                <td>HumanEval/114</td>
+                <td class="status-pass">12/12</td>
+                <td class="coverage-high">100.0%</td>
+                <td class="coverage-high">100.0%</td>
+                <td>Excellent coverage - well-tested code</td>
+                <td><a href="llama_self_planning/HumanEval_114/index.html" target="_blank">View Report →</a></td>
+            </tr>
+            <tr>
+                <td>HumanEval/156</td>
+                <td class="status-pass">14/14</td>
+                <td class="coverage-high">100.0%</td>
+                <td class="coverage-high">100.0%</td>
+                <td>Excellent coverage - well-tested code</td>
+                <td><a href="llama_self_planning/HumanEval_156/index.html" target="_blank">View Report →</a></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,39 @@
+[1m============================= test session starts ==============================[0m
+platform darwin -- Python 3.10.10, pytest-8.4.2, pluggy-1.6.0 -- /Library/Frameworks/Python.framework/Versions/3.10/bin/python3
+cachedir: .pytest_cache
+rootdir: /var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_x9vpbkuq
+plugins: anyio-4.11.0, cov-7.0.0
+[1mcollecting ... [0mcollected 0 items / 1 error
+
+==================================== ERRORS ====================================
+[31m[1m______________________ ERROR collecting test_solution.py _______________________[0m
+[31m[1m[31m/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/_pytest/python.py[0m:498: in importtestmodule
+    [0mmod = import_path([90m[39;49;00m
+[1m[31m/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/_pytest/pathlib.py[0m:587: in import_path
+    [0mimportlib.import_module(module_name)[90m[39;49;00m
+[1m[31m/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py[0m:126: in import_module
+    [0m[94mreturn[39;49;00m _bootstrap._gcd_import(name[level:], package, level)[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:1050: in _gcd_import
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:1027: in _find_and_load
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:1006: in _find_and_load_unlocked
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:688: in _load_unlocked
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/_pytest/assertion/rewrite.py[0m:177: in exec_module
+    [0msource_stat, co = _rewrite_test(fn, [96mself[39;49;00m.config)[90m[39;49;00m
+[1m[31m/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/_pytest/assertion/rewrite.py[0m:357: in _rewrite_test
+    [0mtree = ast.parse(source, filename=strfn)[90m[39;49;00m
+[1m[31m/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ast.py[0m:50: in parse
+    [0m[94mreturn[39;49;00m [96mcompile[39;49;00m(source, filename, mode, flags,[90m[39;49;00m
+[1m[31mE     File "/var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_x9vpbkuq/test_solution.py", line 57[0m
+[1m[31mE       assert candidate('2 1 1 1[0m
+[1m[31mE                        ^[0m
+[1m[31mE   SyntaxError: unterminated string literal (detected at line 57)[0m[0m
+[36m[1m=========================== short test summary info ============================[0m
+[31mERROR[0m ../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_x9vpbkuq/test_solution.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+[31m=============================== [31m[1m1 error[0m[31m in 0.34s[0m[31m ===============================[0m
+
+

@@ -1,0 +1,37 @@
+[1m============================= test session starts ==============================[0m
+platform darwin -- Python 3.10.10, pytest-8.4.2, pluggy-1.6.0 -- /Library/Frameworks/Python.framework/Versions/3.10/bin/python3
+cachedir: .pytest_cache
+rootdir: /var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_baezyqvb
+plugins: anyio-4.11.0, cov-7.0.0
+[1mcollecting ... [0mcollected 16 items
+
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_baezyqvb/test_solution.py::test_case_0 [32mPASSED[0m[32m [  6%][0m
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_baezyqvb/test_solution.py::test_case_1 [32mPASSED[0m[32m [ 12%][0m
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_baezyqvb/test_solution.py::test_case_2 [32mPASSED[0m[32m [ 18%][0m
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_baezyqvb/test_solution.py::test_case_3 [32mPASSED[0m[32m [ 25%][0m
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_baezyqvb/test_solution.py::test_case_4 [32mPASSED[0m[32m [ 31%][0m
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_baezyqvb/test_solution.py::test_case_5 [32mPASSED[0m[32m [ 37%][0m
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_baezyqvb/test_solution.py::test_case_6 [32mPASSED[0m[32m [ 43%][0m
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_baezyqvb/test_solution.py::test_case_7 [32mPASSED[0m[32m [ 50%][0m
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_baezyqvb/test_solution.py::test_case_8 [32mPASSED[0m[32m [ 56%][0m
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_baezyqvb/test_solution.py::test_case_9 [32mPASSED[0m[32m [ 62%][0m
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_baezyqvb/test_solution.py::test_case_10 [32mPASSED[0m[32m [ 68%][0m
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_baezyqvb/test_solution.py::test_case_11 [32mPASSED[0m[32m [ 75%][0m
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_baezyqvb/test_solution.py::test_case_12 [32mPASSED[0m[32m [ 81%][0m
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_baezyqvb/test_solution.py::test_case_13 [32mPASSED[0m[32m [ 87%][0m
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_baezyqvb/test_solution.py::test_case_14 [32mPASSED[0m[32m [ 93%][0m
+../../../../../../../var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_baezyqvb/test_solution.py::test_case_15 [32mPASSED[0m[32m [100%][0m
+
+================================ tests coverage ================================
+______________ coverage: platform darwin, python 3.10.10-final-0 _______________
+
+Name       Stmts   Miss Branch BrPart  Cover   Missing
+------------------------------------------------------
+final.py      78     19     50     10    74%   3, 6, 9-16, 20, 22, 28, 50, 52, 75-77, 82, 90
+------------------------------------------------------
+TOTAL         78     19     50     10    74%
+Coverage HTML written to dir /var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_baezyqvb/htmlcov
+Coverage JSON written to file /var/folders/x_/7yvl0vgs7n9bls331w307p340000gn/T/coverage_baezyqvb/coverage.json
+[32m============================== [32m[1m16 passed[0m[32m in 0.08s[0m[32m ==============================[0m
+
+

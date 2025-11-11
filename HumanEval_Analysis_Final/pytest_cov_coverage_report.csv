@@ -1,0 +1,41 @@
+Problem,LLM,Tests_Passed,Tests_Failed,Total_Tests,Line_Coverage_%,Branch_Coverage_%,Interpretation
+HumanEval/1,gemma_Self_Planning,4,0,4,95.8,87.5,Good line coverage but some branches untested
+HumanEval/17,gemma_Self_Planning,5,0,5,95.0,87.5,Good line coverage but some branches untested
+HumanEval/26,gemma_Self_Planning,3,0,3,100.0,100.0,Excellent coverage - well-tested code
+HumanEval/77,gemma_Self_Planning,7,1,8,100.0,100.0,1 test(s) failed - fix failing tests first
+HumanEval/84,gemma_Self_Planning,0,5,5,100.0,N/A,5 test(s) failed - fix failing tests first
+HumanEval/94,gemma_Self_Planning,9,0,9,94.4,93.8,Excellent coverage - well-tested code
+HumanEval/101,gemma_Self_Planning,6,0,6,100.0,100.0,Excellent coverage - well-tested code
+HumanEval/107,gemma_Self_Planning,8,0,8,100.0,100.0,Excellent coverage - well-tested code
+HumanEval/114,gemma_Self_Planning,12,0,12,85.7,75.0,Moderate branch coverage - some conditional branches untested
+HumanEval/156,gemma_Self_Planning,14,0,14,100.0,100.0,Excellent coverage - well-tested code
+HumanEval/1,gemma_self_edit,4,0,4,96.2,87.5,Good line coverage but some branches untested
+HumanEval/17,gemma_self_edit,5,0,5,100.0,N/A,Good line coverage achieved
+HumanEval/26,gemma_self_edit,3,0,3,100.0,100.0,Excellent coverage - well-tested code
+HumanEval/77,gemma_self_edit,0,8,8,0.0,N/A,8 test(s) failed - fix failing tests first
+HumanEval/84,gemma_self_edit,0,5,5,100.0,N/A,5 test(s) failed - fix failing tests first
+HumanEval/94,gemma_self_edit,9,0,9,95.3,92.9,Excellent coverage - well-tested code
+HumanEval/101,gemma_self_edit,6,0,6,100.0,N/A,Good line coverage achieved
+HumanEval/107,gemma_self_edit,8,0,8,100.0,100.0,Excellent coverage - well-tested code
+HumanEval/114,gemma_self_edit,12,0,12,100.0,100.0,Excellent coverage - well-tested code
+HumanEval/156,gemma_self_edit,14,0,14,100.0,100.0,Excellent coverage - well-tested code
+HumanEval/1,llama_self_edit,4,0,4,96.2,87.5,Good line coverage but some branches untested
+HumanEval/17,llama_self_edit,3,2,5,88.2,75.0,2 test(s) failed - fix failing tests first
+HumanEval/26,llama_self_edit,3,0,3,100.0,100.0,Excellent coverage - well-tested code
+HumanEval/77,llama_self_edit,0,8,8,0.0,N/A,8 test(s) failed - fix failing tests first
+HumanEval/84,llama_self_edit,0,5,5,100.0,N/A,5 test(s) failed - fix failing tests first
+HumanEval/94,llama_self_edit,9,0,9,100.0,100.0,Excellent coverage - well-tested code
+HumanEval/101,llama_self_edit,6,0,6,100.0,N/A,Good line coverage achieved
+HumanEval/107,llama_self_edit,8,0,8,100.0,100.0,Excellent coverage - well-tested code
+HumanEval/114,llama_self_edit,12,0,12,100.0,100.0,Excellent coverage - well-tested code
+HumanEval/156,llama_self_edit,14,0,14,100.0,100.0,Excellent coverage - well-tested code
+HumanEval/1,llama_self_planning,4,0,4,100.0,100.0,Excellent coverage - well-tested code
+HumanEval/17,llama_self_planning,2,3,5,85.7,75.0,3 test(s) failed - fix failing tests first
+HumanEval/26,llama_self_planning,3,0,3,95.7,83.3,Good line coverage but some branches untested
+HumanEval/77,llama_self_planning,0,8,8,0.0,N/A,8 test(s) failed - fix failing tests first
+HumanEval/84,llama_self_planning,0,5,5,100.0,100.0,5 test(s) failed - fix failing tests first
+HumanEval/94,llama_self_planning,9,0,9,95.3,92.9,Excellent coverage - well-tested code
+HumanEval/101,llama_self_planning,6,0,6,100.0,N/A,Good line coverage achieved
+HumanEval/107,llama_self_planning,8,0,8,100.0,100.0,Excellent coverage - well-tested code
+HumanEval/114,llama_self_planning,12,0,12,100.0,100.0,Excellent coverage - well-tested code
+HumanEval/156,llama_self_planning,14,0,14,100.0,100.0,Excellent coverage - well-tested code
