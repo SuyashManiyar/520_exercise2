@@ -1,4 +1,3 @@
-
 # 520_exercise2
 
 ## Project Overview
@@ -30,6 +29,29 @@ python run_enhanced_analysis.py
 ```
 
 This will analyze the code in the `codes/` directory and generate HTML coverage reports in `coverage_html_reports/`.
+
+#### 📊 View Coverage Reports
+
+After running the analysis, open the interactive coverage dashboard:
+
+```bash
+open coverage_html_reports/index.html
+```
+
+The dashboard provides:
+- **40 Total Solutions** across 4 LLM implementations
+- **Interactive Tables** with test results, line coverage, and branch coverage
+- **Color-coded Metrics** for quick assessment
+- **Direct Links** to detailed coverage reports for each problem
+
+**Coverage Summary by Implementation:**
+
+| Implementation | Problems | Avg Line Coverage | Avg Branch Coverage |
+|----------------|----------|-------------------|---------------------|
+| gemma_Self_Planning | 10 | 97.1% | 94.3% |
+| gemma_self_edit | 10 | 89.2% | 95.1% |
+| llama_self_edit | 10 | 88.4% | 90.6% |
+| llama_self_planning | 10 | 87.7% | 90.3% |
 
 ### Step 2: Task 2 - Test Case Generation
 
